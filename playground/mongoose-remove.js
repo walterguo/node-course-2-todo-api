@@ -8,6 +8,10 @@ Todo.remove({}).then((result) => {
   console.log(result);
 });
 
+// Todo.findOneAndRemove({_id: '5912f5b5f3b6242e0cc18a7d'}).then((todo) => {
+//
+// })
+
 Todo.findByIdAndRemove('5912f5b5f3b6242e0cc18a7d').then((todo) => {
   console.log(todo);
 })
